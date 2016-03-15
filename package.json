@@ -1,0 +1,33 @@
+{
+  "name": "spaza-app",
+  "version": "0.0.0",
+  "description": "ERROR: No README data found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "bluebird": "~2.10.2",
+    "body-parser": "~1.13.2",
+    "connection-provider": "git://github.com/avermeulen/connection-provider",
+    "express": "^4.12.4",
+    "express-handlebars": "~2.0.1",
+    "express-myconnection": "~1.0.4",
+    "express-useragent": "~0.2.0",
+    "lodash": "^3.10.1",
+    "mysql": "~2.8.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sibura/spaza-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sibura/spaza-app/issues"
+  }
+}

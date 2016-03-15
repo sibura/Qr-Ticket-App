@@ -1,0 +1,23 @@
+<!-- {{#isAdmin}} -->
+<table class="table">
+
+    <tr>
+        <th>username</th>
+       
+    </tr>
+    {{#USer}}
+
+        <tr>
+            <form action="/user/update/{{Id}}" method="post">
+                <td>{{username}}</td>
+                <td>
+                    <input type='submit' value='submit'></input>
+                </td>
+            </form>
+            <td><button><a href="/user/edit/{{Id}}">Edit</a></button></td>
+            <td><button><a href="/user/delete/{{Id}}">Delete</a></button> </td>
+        </tr>
+
+    {{/USer}} 
+</table>
+<!-- {{/isAdmin}} -->
